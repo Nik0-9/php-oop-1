@@ -1,0 +1,196 @@
+[
+    {
+        "adult": false,
+        "backdrop_path": "https://image.tmdb.org/t/p/w342/wVTvfxz53pDqrIvbrxhVdKcLhip.jpg",
+        "genre_ids": [
+            28,
+            12,
+            878,
+            53
+        ],
+        "id": 9381,
+        "original_language": "en",
+        "original_title": "Babylon A.D.",
+        "overview": "A veteran-turned-mercenary is hired to take a young woman with a secret from post-apocalyptic Eastern Europe to New York City.",
+        "popularity": 199.314,
+        "poster_path": "https://image.tmdb.org/t/p/w342/kt9nqD0uOar8IVE9191HXhWOXKI.jpg",
+        "release_date": "2008-08-20",
+        "title": "Babylon A.D.",
+        "video": false,
+        "vote_average": 5.601,
+        "vote_count": 1906
+    },
+    {
+        "adult": false,
+        "backdrop_path": "https://image.tmdb.org/t/p/w342/5Di2tovzn8lnXWxigV6xm7yrL24.jpg",
+        "genre_ids": [
+            16,
+            12,
+            28,
+            14,
+            10751
+        ],
+        "id": 1147400,
+        "original_language": "fr",
+        "original_title": "Miraculous World : Paris, Les Aventures de Toxinelle et Griffe Noire",
+        "overview": "Miraculous holders from another world appear in Paris. They come from a parallel universe where everything is reversed: the holders of Ladybug and Black Cat Miraculouses, Shadybug and Claw Noir, are the bad guys, and the holder of the Butterfly Miraculous, Hesperia, is a superhero. Ladybug and Cat Noir will have to help Hesperia counter the attacks of their evil doubles and prevent them from seizing the Butterfly's Miraculous. Can our heroes also help Hesperia make Shadybug and Claw Noir better people?",
+        "popularity": 78.837,
+        "poster_path": "https://image.tmdb.org/t/p/w342/A46SghdyD9y7qQUxB5zOslospJ7.jpg",
+        "release_date": "2023-10-21",
+        "title": "Miraculous World: Paris, Tales of Shadybug and Claw Noir",
+        "video": false,
+        "vote_average": 6.935,
+        "vote_count": 62
+    },
+    {
+        "adult": false,
+        "backdrop_path": "https://image.tmdb.org/t/p/w342/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
+        "genre_ids": [
+            27,
+            9648
+        ],
+        "id": 507089,
+        "original_language": "en",
+        "original_title": "Five Nights at Freddy's",
+        "overview": "Recently fired and desperate for work, a troubled young man named Mike agrees to take a position as a night security guard at an abandoned theme restaurant: Freddy Fazbear's Pizzeria. But he soon discovers that nothing at Freddy's is what it seems.",
+        "popularity": 759.232,
+        "poster_path": "https://image.tmdb.org/t/p/w342/j9mH1pr3IahtraTWxVEMANmPSGR.jpg",
+        "release_date": "2023-10-25",
+        "title": "Five Nights at Freddy's",
+        "video": false,
+        "vote_average": 7.8,
+        "vote_count": 2619
+    },
+    {
+        "adult": false,
+        "backdrop_path": "https://image.tmdb.org/t/p/w342/6tCTR5Gr91Kocrt0goLrpFs1tqh.jpg",
+        "genre_ids": [
+            18
+        ],
+        "id": 833326,
+        "original_language": "fr",
+        "original_title": "Rien à foutre",
+        "overview": "Cassandre, 26, is a flight attendant for a low-cost airline. Based in Lanzarote, she’s always willing to take on extra hours and carries out her duties with robotic efficiency. On the side, she just goes with the flow and floats between Tinder, parties and lazy days. When she suddenly gets dismissed, she is forced to return home.",
+        "popularity": 257.363,
+        "poster_path": "https://image.tmdb.org/t/p/w342/wLZ5jijVpOxHuBLmsICKLXwlldu.jpg",
+        "release_date": "2022-03-02",
+        "title": "Zero Fucks Given",
+        "video": false,
+        "vote_average": 6.417,
+        "vote_count": 306
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18,
+            10402
+        ],
+        "id": 461191,
+        "original_language": "en",
+        "original_title": "A",
+        "overview": "A young alcoholic ambient musician locks himself in his apartment on a dangerous seven day bender as he attempts to finish his upcoming album.",
+        "popularity": 3.7,
+        "poster_path": "https://image.tmdb.org/t/p/w342/4uOKZzRB615cIxcVi31pcsdFtSS.jpg",
+        "release_date": "2017-09-13",
+        "title": "A",
+        "video": false,
+        "vote_average": 7.19,
+        "vote_count": 58
+    },
+    {
+        "adult": false,
+        "backdrop_path": "https://image.tmdb.org/t/p/w342/ltpW5exyTdqL5twV8zRMajf1VgU.jpg",
+        "genre_ids": [
+            99
+        ],
+        "id": 24791,
+        "original_language": "ja",
+        "original_title": "A",
+        "overview": "Roughly chronological, from 3/96 to 11/96, with a coda in spring of 1997: inside compounds of Aum Shinrikyo, a Buddhist sect led by Shoko Asahara. (Members confessed to a murderous sarin attack in the Tokyo subway in 1995.) We see what they eat, where they sleep, and how they respond to media scrutiny, on-going trials, the shrinking of their fortunes, and the criticism of society. Central focus is placed on Hiroshi Araki, a young man who finds himself elevated to chief spokesman for Aum after its leaders are arrested. Araki faces extreme hostility from the Japanese public, who find it hard to believe that most followers of the cult had no idea of the attacks and even harder to understand why these followers remain devoted to the religion, if not the violence.",
+        "popularity": 4.073,
+        "poster_path": "https://image.tmdb.org/t/p/w342/dBLzrfh5DtxJey1hOYZaN2drPe3.jpg",
+        "release_date": "1998-09-09",
+        "title": "A",
+        "video": false,
+        "vote_average": 6.189,
+        "vote_count": 53
+    },
+    {
+        "adult": false,
+        "backdrop_path": "https://image.tmdb.org/t/p/w342/A1g8AvP3KpDyu0iyjS6roRxK77v.jpg",
+        "genre_ids": [
+            53,
+            80
+        ],
+        "id": 978870,
+        "original_language": "it",
+        "original_title": "L'ultima notte di Amore",
+        "overview": "On the night before his retirement, police lieutenant Franco Amore is called to investigate the death of a long-time partner of his in a diamond heist in which he was involved.",
+        "popularity": 147.052,
+        "poster_path": "https://image.tmdb.org/t/p/w342/dBp0REsZkZ1HK1PycwlLdBtYdsd.jpg",
+        "release_date": "2023-03-09",
+        "title": "Last Night of Amore",
+        "video": false,
+        "vote_average": 7.22,
+        "vote_count": 296
+    },
+    {
+        "adult": false,
+        "backdrop_path": "https://image.tmdb.org/t/p/w342/kszooR7v1TLFM4pzx6IkKq2jDAN.jpg",
+        "genre_ids": [
+            18,
+            80,
+            9648
+        ],
+        "id": 915935,
+        "original_language": "fr",
+        "original_title": "Anatomie d'une chute",
+        "overview": "A woman is suspected of her husband’s murder, and their blind son faces a moral dilemma as the sole witness.",
+        "popularity": 127.384,
+        "poster_path": "https://image.tmdb.org/t/p/w342/kQs6keheMwCxJxrzV83VUwFtHkB.jpg",
+        "release_date": "2023-08-23",
+        "title": "Anatomy of a Fall",
+        "video": false,
+        "vote_average": 7.83,
+        "vote_count": 358
+    },
+    {
+        "adult": false,
+        "backdrop_path": "https://image.tmdb.org/t/p/w342/5quyXeEA6RaoTjaiypECXOKXT2o.jpg",
+        "genre_ids": [
+            35,
+            9648
+        ],
+        "id": 1179664,
+        "original_language": "es",
+        "original_title": "Invitación a un Asesinato",
+        "overview": "Eccentric millionaire Olivia sends her half sister Agatha, and a group of old acquaintances, a mysterious invitation for a weekend on her yacht, where they will discover the true motive behind this invitation: the celebration of… a murder?",
+        "popularity": 21.665,
+        "poster_path": "https://image.tmdb.org/t/p/w342/1IFdWd7ykl0yHqKid9Mm7TTIDSK.jpg",
+        "release_date": "2023-10-06",
+        "title": "A Deadly Invitation",
+        "video": false,
+        "vote_average": 5.898,
+        "vote_count": 113
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            28,
+            16
+        ],
+        "id": 116776,
+        "original_language": "ja",
+        "original_title": "ドラゴンボール 魔訶不思議大冒険",
+        "overview": "Master Roshi has succeeded at the one mission he valued most: to train Goku and Krillin to become ultimate fighters. So, he arranges for them to test their mettle at a competition hosted by Emperor Chiaotzu. Not everyone's playing by the rules, however, as a member of the ruler's household schemes to use the Dragonballs to extort money and power from the royal.",
+        "popularity": 296.151,
+        "poster_path": "https://image.tmdb.org/t/p/w342/5aXG0B3TYTpQsodXzvYCkKQfpB1.jpg",
+        "release_date": "1988-07-09",
+        "title": "Dragon Ball: Mystical Adventure",
+        "video": false,
+        "vote_average": 6.756,
+        "vote_count": 227
+    }
+]
