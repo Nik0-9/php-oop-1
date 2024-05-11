@@ -1,19 +1,34 @@
 <?php
-
-
-class Product
+include_once __DIR__ . '/Category.php';
+abstract class Product
 {
-    public $id;
-    public $name;
-    public $img;
-    public $description;
-    public $rating;
-    public function __construct($id, $name, $img, $description, $rating){
+    public int $id;
+    public string $title;
+    public Category $category;
+
+    public float $price;
+    public float $rating;
+    public string $cover;
+
+    public function __construct($id, $title, $price, $rating, $cover, $category)
+    {
         $this->id = $id;
-        $this->name = $name;
-        $this->img = $img;
-        $this->description = $description;
+        $this->title = $title;
         $this->rating = $rating;
+        $this->cover = $cover;
+        $this->category = $category;
+        $this->price = $price;
+    }
+
+    public function getVote()
+    {
+        $voteINT = ceil($this->rating / 2);
+        $template = "<p>";
+        for ($n = 1; $n <= 5; $n++) {
+            $template .= $n <= $voteINT ? '<i class="fa-solid fa-star"></i>' : '<i class="fa-regular fa-star"></i>';
+        }
+        $template .= "</p>";
+        return $template;
     }
 
 }
