@@ -15,10 +15,10 @@ $books = Book::fetchBooks();
         <h2>Movies</h2>
         <div class="row">
             <?php foreach ($movies as $movie) { ?>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="card">
+                <div class="col-12 col-md-4 col-lg-3 mb-4">
+                    <div class="card card-wdt">
                         <img src="<?= $movie->cover ?>" class="card-img-top" alt="<?= $movie->title ?>">
-                        <div class="card-body">
+                        <div class="card-body over-y">
                             <h5 class="card-title"><?= $movie->title ?></h5>
                             <div class="d-flex justify-content-between ">
                                 <h6 class="card-text">
@@ -31,6 +31,9 @@ $books = Book::fetchBooks();
                             <p>
                                 <?= $movie->price ?>
                             </p>
+                            <div class="">
+                                <?= $movie->overview ?>
+                            </div>
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
@@ -42,10 +45,10 @@ $books = Book::fetchBooks();
         <h2>Book</h2>
         <div class="row">
             <?php foreach ($books as $book) { ?>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="card">
+                <div class="col-12 col-md-4 col-lg-3 mb-4">
+                    <div class="card  card-wdt">
                         <img src="<?= $book->cover ?>" class="card-img-top" alt="<?= $book->title ?>">
-                        <div class="card-body">
+                        <div class="card-body  over-y">
                             <h5 class="card-title"><?= $book->title ?></h5>
 
                             <h6 class="card-text">
@@ -54,6 +57,11 @@ $books = Book::fetchBooks();
                             <p>
                                 <?= $book->category?->cate_name ?>
                             </p>
+                            <?php if ($book->longDescription !== null) { ?>
+                                <p>
+                                    <?= $book->longDescription ?>
+                                </p>
+                            <?php } ?>
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>

@@ -10,7 +10,8 @@ abstract class Product
     public float $rating;
     public string $cover;
 
-    public function __construct($id, $title, $price, $rating, $cover, $category)
+
+    public function __construct($id, $title, $price, $rating, $cover, $category, )
     {
         $this->id = $id;
         $this->title = $title;
@@ -18,6 +19,7 @@ abstract class Product
         $this->cover = $cover;
         $this->category = $category;
         $this->price = $price;
+        
     }
 
     public function getVote()

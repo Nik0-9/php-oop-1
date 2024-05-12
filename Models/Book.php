@@ -4,10 +4,12 @@ include_once __DIR__ . '/Product.php';
 class Book extends Product
 {
     public $numPages;
-    public function __construct($id, $title, $numPages, $price, $rating, $cover, $category)
+    public $longDescription;
+    public function __construct($id, $title, $numPages, $price, $rating, $cover, $category, $longDescription)
     {
         parent::__construct($id, $title, $price, $rating, $cover, $category);
         $this->numPages = $numPages;
+        $this->longDescription = $longDescription;
 
 
     }
@@ -25,7 +27,9 @@ class Book extends Product
                     $category = $cat;
                 }
             }
-            $books[] = new Book($item["id"], $item["title"],$item["numPages"], $item["price"], $item["rating"], $item["cover"], $category);
+            $longDescription = array_key_exists('longDescription', $item) ? $item['longDescription'] : null;
+
+            $books[] = new Book($item["id"], $item["title"],$item["numPages"], $item["price"], $item["rating"], $item["cover"], $category, $longDescription);
         }
         return $books;
     }
