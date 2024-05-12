@@ -3,10 +3,9 @@ include __DIR__ . "/Views/header.php";
 include __DIR__ . "/Models/Movie.php";
 include __DIR__ . "/Models/Book.php";
 
-$categories = Category::fetchCategories();
 
-$movies = Movie::fetchMovies();
-$books = Book::fetchBooks();
+$movies = Product::fetchAll('movies_db', 'Movie');
+$books = Product::fetchAll('books_db', 'Book');
 
 
 ?>
@@ -14,59 +13,17 @@ $books = Book::fetchBooks();
     <section>
         <h2>Movies</h2>
         <div class="row">
-            <?php foreach ($movies as $movie) { ?>
-                <div class="col-12 col-md-4 col-lg-3 mb-4">
-                    <div class="card card-wdt">
-                        <img src="<?= $movie->cover ?>" class="card-img-top" alt="<?= $movie->title ?>">
-                        <div class="card-body over-y">
-                            <h5 class="card-title"><?= $movie->title ?></h5>
-                            <div class="d-flex justify-content-between ">
-                                <h6 class="card-text">
-                                    <?= $movie->language ?>
-                                </h6>
-                                <div>
-                                    <?= $movie->getVote() ?>
-                                </div>
-                            </div>
-                            <p>
-                                <?= $movie->price ?>
-                            </p>
-                            <div class="">
-                                <?= $movie->overview ?>
-                            </div>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                        </div>
-                    </div>
-                </div>
-            <?php } ?>
+            <?php foreach ($movies as $movie) {
+                echo $movie->printCard($movie->formatItem());
+            } ?>
         </div>
     </section>
     <section>
         <h2>Book</h2>
         <div class="row">
-            <?php foreach ($books as $book) { ?>
-                <div class="col-12 col-md-4 col-lg-3 mb-4">
-                    <div class="card  card-wdt">
-                        <img src="<?= $book->cover ?>" class="card-img-top" alt="<?= $book->title ?>">
-                        <div class="card-body  over-y">
-                            <h5 class="card-title"><?= $book->title ?></h5>
-
-                            <h6 class="card-text">
-                                <?= $book->numPages ?>
-                            </h6>
-                            <p>
-                                <?= $book->category?->cate_name ?>
-                            </p>
-                            <?php if ($book->longDescription !== null) { ?>
-                                <p>
-                                    <?= $book->longDescription ?>
-                                </p>
-                            <?php } ?>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                        </div>
-                    </div>
-                </div>
-            <?php } ?>
+            <?php foreach ($books as $book) {
+                echo $book->printCard($book->formatItem());
+            } ?>
         </div>
     </section>
 
